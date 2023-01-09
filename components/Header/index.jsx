@@ -22,7 +22,7 @@ const Header = () => {
   }
 
   return (
-    <MDBNavbar className="py-0 navbarcss" expand="md">
+    <MDBNavbar className="p-0 m-0 navbarcss" expand="md">
       <MDBNavbarToggler onClick={handleToggle} />
       <MDBCol xs="1" className="text-center align-self-center">
         <Link href="/">
