@@ -9,7 +9,7 @@ const Footer = () => {
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="6" className="text-center align-self-center">
-            <Image src="/images/News.png" width={150} height={45} alt="Logo" />
+            <Image src="/images/news.png" width={150} height={45} alt="Logo" />
             <br />
             <br />
 
