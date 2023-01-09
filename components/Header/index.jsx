@@ -41,36 +41,36 @@ const Header = () => {
             </Link>
           </MDBNavItem>
           <MDBNavItem>
-            <Link href="/properties" passHref>
-              <a className="nav-link">
-                {/* <MDBIcon icon="building" className="mr-1" /> */}
-                ¿Qué hacemos?
-              </a>
-            </Link>
+            {/* <Link href="/properties" passHref> */}
+            <a className="nav-link">
+              {/* <MDBIcon icon="building" className="mr-1" /> */}
+              ¿Qué hacemos?
+            </a>
+            {/* </Link> */}
           </MDBNavItem>
           <MDBNavItem>
-            <Link href="/rent" passHref>
-              <a className="nav-link">
-                {/* <MDBIcon icon="building" className="mr-1" /> */}
-                Ayúdanos a ser más inteligentes
-              </a>
-            </Link>
+            {/* <Link href="/rent" passHref> */}
+            <a className="nav-link">
+              {/* <MDBIcon icon="building" className="mr-1" /> */}
+              Ayúdanos a ser más inteligentes
+            </a>
+            {/* </Link> */}
           </MDBNavItem>
           <MDBNavItem>
-            <Link href="/mapPdf" passHref>
-              <a className="nav-link">
-                {/* <MDBIcon icon="building" className="mr-1" /> */}
-                Anúnciate con nosotros
-              </a>
-            </Link>
+            {/* <Link href="/mapPdf" passHref> */}
+            <a className="nav-link">
+              {/* <MDBIcon icon="building" className="mr-1" /> */}
+              Anúnciate con nosotros
+            </a>
+            {/* </Link> */}
           </MDBNavItem>
           <MDBNavItem>
-            <Link href="/agents/agents" passHref>
-              <a className="nav-link">
-                {/* <MDBIcon icon="building" className="mr-1" /> */}
-                Contacto
-              </a>
-            </Link>
+            {/* <Link href="/agents/agents" passHref> */}
+            <a className="nav-link">
+              {/* <MDBIcon icon="building" className="mr-1" /> */}
+              Contacto
+            </a>
+            {/* </Link> */}
           </MDBNavItem>
         </MDBNavbarNav>
       </MDBCollapse>
