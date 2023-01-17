@@ -207,7 +207,18 @@ a {
 }
 .main {
   width: 100vw;
-  height: 100vh;
+
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+  opacity: .98;
+  // position: relative;
+  // z-index: 1;
+}
+
+.main2 {
+  width: 100vw;
+ height: 100vh;
   margin: 0px;
   padding: 0px;
   top: 0px;
@@ -229,7 +240,27 @@ a {
 }
 .content2{
   position:absolute;
-  font-size: 1.3rem;
+  font-size: .6rem;
+  padding: 15px;
+  margin-left: 20px;
+  margin-top: 50px;
+  // font-weight: 700;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  // display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  // background-color: gray;
+ }
+
+ .content3{
+  position:absolute;
+  font-size: .6rem;
+
+
   // font-weight: 700;
   width: 100%;
   height: 100%;
@@ -238,8 +269,30 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: black
+  color: black;
+  // background-color: gray;
+ }
+
+ .content4{
+  font-size: 1rem;
+ }
+ .content6{
+  position:absolute;
+  font-size: 1.3rem;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px ;
+  align-items: center;
+  color: white;
 }
+
+ .border{
+  border: #1f1209;
+ }
+
 
 .ptag{
   position:absolute;
@@ -252,6 +305,18 @@ a {
   align-items: center;
   color: white;
 
+}
+.circle{
+  background-color: primary;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 15px;
+}
+.iconSpot{
+  display: flex;
+  // flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .inner{
   display: flex;
@@ -306,6 +371,11 @@ a {
   z-index: -1;
   }
 
+  .bgimage{
+    background-image: url('/public/images/gray.png');
+    height: 100vh;
+  }
+
 div.scrollmenu {
   background-color: white;
   overflow: auto;
@@ -326,6 +396,13 @@ div.scrollmenu a:hover {
 
 .videoBg {
   object-fit: cover;
+
+
+}
+.videoBg2 {
+  object-fit: cover;
+  height: 15main0px;
+
 }
 
 .overlay{
@@ -348,6 +425,23 @@ div.scrollmenu a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+  font-weight: 700;
+  line-height: 1em;
+}
+.maintext2 {
+  font-family: 'neuzeit-grotesk', sans-serif;
+  font-weight: 400;
+  line-height: 23px;
+  font-size: 2em;
+  // color: #58595b;
+  // font-size: 13vw;
+  font-family: 'neuzeit-grotesk', sans-serif;
+  // display: flex;
+  padding-top: 200px;
+
   align-items: center;
   text-align: center;
  

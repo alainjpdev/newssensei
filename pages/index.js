@@ -104,7 +104,7 @@ export default function Home() {
                     <form ref={form}>
                       <div className="md-form">
                         <div className="form-group">
-                          <label for="email">
+                          <label HtmlFor="email">
                             <h6>Ingresa tu correo electrónico</h6>
                           </label>
                           <input
@@ -143,37 +143,102 @@ export default function Home() {
             </div>
           </div>
           <div className="container-fluid p-0 m-0">
-            <div className="row">
-              <div className="col bgWrap p-0">
-                <Image
-                  alt="travel"
-                  src="/images/gray.png"
-                  layout="fill"
-                  // width={100}
-                  // objectFit="cover"
-                  // quality={100}
-                />
-                <div className="col-md-5 content2">
-                  <h2>
-                    <strong>Nuestro brief inteligente.</strong>
-                  </h2>
-                  <span className="m-3">
-                    News Sensei te permite ahorrar tiempo y recursos, e iniciar
-                    el día con información clave, como lo haría el presidente de
-                    una nación o el CEO de una multinacional.
-                  </span>
-                </div>
-                <div className="col-md-5 content2">
-                  <h3>
-                    <strong>Agenda Política</strong>
-                  </h3>
-                </div>
-                <div className="col-md-3 content2">
-                  <h3>
-                    <strong>Finanzas</strong>
-                  </h3>
+            <div className="row bg-image">
+              <div className="col-md-5 p-5 m-3 mt-5 mx-2">
+                <h2>
+                  <strong>Nuestro brief inteligente.</strong>
+                </h2>
+                <span>
+                  News Sensei te permite ahorrar tiempo y recursos, e iniciar el
+                  día con información clave, como lo haría el presidente de una
+                  nación o el CEO de una multinacional.
+                </span>
+              </div>
+              <div className="col-md-5 mt-5 mx-2 ">
+                <div className="row">
+                  <div className="col-md-6 border p-1 ">
+                    <div className="circle d-inline-flex">
+                      <i className="fas fa-tasks "></i>
+                    </div>
+                    <spam>Agenda Política</spam>
+                  </div>
+                  <div className="col-md-6 border p-1">
+                    <div className="circle d-inline-flex">
+                      <i className="fas fa-dollar-sign mr-2 "></i>
+                    </div>
+                    <spam>Finanzas</spam>
+                  </div>
+                  <div className="col-md-6 border p-1">
+                    <div className="circle d-inline-flex">
+                      <i className="fas fa-assistive-listening-systems"></i>
+                    </div>
+                    <spam>Social Listening</spam>
+                  </div>
+                  <div className="col-md-6 border p-1">
+                    <div className="circle d-inline-flex">
+                      <i className="far fa-calendar-alt"></i>
+                    </div>
+                    <spam>Agenda Económica</spam>
+                  </div>
+                  <div className="col-md-6 border p-1">
+                    <div className="circle d-inline-flex">
+                      <i className="fas fa-power-off"></i>
+                    </div>
+                    <spam>Innovación y Tecnología</spam>
+                  </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="container-fluid p-0 m-0">
+          <div className="row">
+            <div className="col main2 p-0 m-0">
+              <video
+                style={{ width: '100%', height: '100%' }}
+                muted
+                autoPlay
+                loop
+                src="/videos/ojo.mp4"
+                className="main2 p-0 m-0 videoBg2"
+                type="video/mp4"
+              />
+              <div className="content6 p-0 m-0">
+                <div className="row pt-5 mt-5">
+                  <div className="col maintext2 pt-5">
+                    Ayúdanos a ser cada <br />
+                    vez más inteligentes.
+                    <br />
+                    <h6>
+                      <br />
+                      Con tu ayuda queremos que el servicio que proveemos siga{' '}
+                      <br />
+                      mejorando. Ayúdanos, llenando nuestra encuesta.
+                    </h6>
+                    <MDBBtn className="p">Llena la encuesta</MDBBtn>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container-fluid p-0 m-0">
+          <div className="row">
+            <div className="col content3 mt-1">
+              <h2>
+                <strong>Anúnciate con nosotros.</strong>
+              </h2>
+              <spam className="content4">
+                Ventajas de anunciarte en el Brief de News Sensei:
+              </spam>
+              <ul>
+                <li>Posicionamiento y crecimiento de tu marca.</li>
+                <li>
+                  Atención a la audiencia específica que requiere tu marca.
+                </li>
+                <li>Tráfico eficiente a tu website.</li>
+                <li>Costos menores a los de la publicidad tradicional.</li>
+              </ul>
             </div>
           </div>
         </div>
