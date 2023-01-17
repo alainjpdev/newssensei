@@ -1,5 +1,9 @@
 @import 'colors';
 
+html, body {
+  overflow-x: hidden;
+}
+
 .globalImg {
   width: 100%;
   height: auto;
@@ -332,7 +336,8 @@ video {
   display: flex;
   flex-direction: column;
   margin-top: 100px;
-  
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   // justify-content: center;
   align-items: center;
   color: white;  

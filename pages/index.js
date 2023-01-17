@@ -65,11 +65,11 @@ export default function Home() {
       </Head>
       <Layout>
         <div className="container-fluid p-0 m-0">
-          <div className="maint">
+          <div className="maint px-0">
             <div className="overlayt">
               <video src={'/videos/intro.mp4'} autoPlay loop muted />
             </div>
-            <div className="contenttt p-2 flex-fill mx-2">
+            <div className="contenttt p-2  mx-2">
               <h1>
                 Todo lo que tienes que <br />
                 saber,
@@ -191,11 +191,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="container-fluid p-0 m-0" id="anunciate">
+        <div className="container-fluid p-0 m-0">
           <div className="row">
             <div className="col content2 mt-1">
               <h2>
-                <strong>Anúnciate con nosotros.</strong>
+                <strong id="anunciate">Anúnciate con nosotros.</strong>
               </h2>
               <spam>Ventajas de anunciarte en el Brief de News Sensei:</spam>
               <ul>
