@@ -119,7 +119,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="container-fluid p-0 m-0">
+          <div className="container-fluid p-0 m-0" id="brief">
             <div className="row bg-image">
               <div className="col-md-5 p-5 m-3 mt-5 mx-2">
                 <h2>
@@ -168,7 +168,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="container-fluid p-0 m-0">
+        <div className="container-fluid p-0 m-0" id="ayudanos">
           <div className="maint">
             <div className="overlayt">
               <video src={'/videos/eye.mp4'} autoPlay loop muted />
@@ -191,7 +191,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="container-fluid p-0 m-0">
+        <div className="container-fluid p-0 m-0" id="anunciate">
           <div className="row">
             <div className="col content3 mt-1">
               <h2>

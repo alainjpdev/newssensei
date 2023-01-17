@@ -35,32 +35,28 @@ const Header = () => {
           <MDBNavItem active={router.pathname === '/'}>
             <Link href="/">
               <a className="nav-link">
-                {/* <MDBIcon icon="home" className="mr-1" /> */}
-                Nuestro brief inteligente
+                <Link href={'#brief'}>Nuestro brief inteligente</Link>
               </a>
             </Link>
           </MDBNavItem>
           <MDBNavItem>
             {/* <Link href="/properties" passHref> */}
             <a className="nav-link">
-              {/* <MDBIcon icon="building" className="mr-1" /> */}
-              ¿Qué hacemos?
+              <Link href={'#que'}>¿Qué hacemos?</Link>
             </a>
             {/* </Link> */}
           </MDBNavItem>
           <MDBNavItem>
             {/* <Link href="/rent" passHref> */}
             <a className="nav-link">
-              {/* <MDBIcon icon="building" className="mr-1" /> */}
-              Ayúdanos a ser más inteligentes
+              <Link href={'#ayudanos'}> Ayúdanos a ser más inteligentes</Link>
             </a>
             {/* </Link> */}
           </MDBNavItem>
           <MDBNavItem>
             {/* <Link href="/mapPdf" passHref> */}
             <a className="nav-link">
-              {/* <MDBIcon icon="building" className="mr-1" /> */}
-              Anúnciate con nosotros
+              <Link href={'#anunciate'}>Anúnciate con nosotros</Link>
             </a>
             {/* </Link> */}
           </MDBNavItem>
