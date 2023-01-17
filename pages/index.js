@@ -193,13 +193,11 @@ export default function Home() {
         </div>
         <div className="container-fluid p-0 m-0" id="anunciate">
           <div className="row">
-            <div className="col content3 mt-1">
+            <div className="col content2 mt-1">
               <h2>
                 <strong>Anúnciate con nosotros.</strong>
               </h2>
-              <spam className="content4">
-                Ventajas de anunciarte en el Brief de News Sensei:
-              </spam>
+              <spam>Ventajas de anunciarte en el Brief de News Sensei:</spam>
               <ul>
                 <li>Posicionamiento y crecimiento de tu marca.</li>
                 <li>
