@@ -65,69 +65,45 @@ export default function Home() {
       </Head>
       <Layout>
         <div className="container-fluid p-0 m-0">
-          <div className="row">
-            <div className="col main p-0 m-0">
-              <video
-                style={{ width: '100%', height: '100%' }}
-                muted
-                autoPlay
-                loop
-                src="/videos/intro.mp4"
-                className="main p-0 m-0 videoBg"
-                type="video/mp4"
-              />
-              <div className="content p-0 m-0">
-                <div className="row p-0 m-0">
-                  <div className="col maintext">
-                    Todo lo que tienes que <br />
-                    saber,
-                    <br /> sobre todo lo que <br />
-                    <div className="inner">
-                      <span>
-                        importa.
-                        <br />
-                        trasciende.
-                        <br />
-                        <br />
-                        impacta.
-                      </span>
-                    </div>
-                    <h6>
-                      <br />
-                      Recibe nuestro brief inteligente todas las mañanas.
-                      ¡Ingresa tu e-mail!
-                    </h6>
-                  </div>
+          <div className="maint">
+            <div className="overlayt">
+              <video src={'/videos/intro.mp4'} autoPlay loop muted />
+            </div>
+            <div className="contenttt p-2 flex-fill mx-2">
+              <h1>
+                Todo lo que tienes que <br />
+                saber,
+                <br /> sobre todo lo que <br />
+                <div className="inner">
+                  <span>
+                    importa.
+                    <br />
+                    trasciende.
+                    <br />
+                    <br />
+                    impacta.
+                  </span>
                 </div>
-                <MDBRow>
-                  <MDBCol className="col-12">
-                    <form ref={form}>
-                      <div className="md-form">
-                        <div className="form-group">
-                          <label HtmlFor="email">
-                            <h6>Ingresa tu correo electrónico</h6>
-                          </label>
-                          <input
-                            type="email"
-                            name="user_email"
-                            class="form-control"
-                            id="email"
-                            placeholder="email"
-                          />
-                        </div>
-
-                        {/* <MDBInput
-                                type="text"
-                                id="form-contact-phone"
-                                label="Phone"
-                              /> */}
-                      </div>
-                    </form>
-                  </MDBCol>
-                </MDBRow>
-                <MDBRow>
-                  <MDBCol>
-                    <div className="md-form mb-0">
+              </h1>
+              <h6>
+                <br />
+                Recibe nuestro brief inteligente todas las mañanas. ¡Ingresa tu
+                e-mail!
+              </h6>
+              <MDBCol className="col-6">
+                <form ref={form}>
+                  <div className="md-form">
+                    <div className="form-group">
+                      <label HtmlFor="email">
+                        <h6>Ingresa tu correo electrónico</h6>
+                      </label>
+                      <input
+                        type="email"
+                        name="user_email"
+                        class="form-control"
+                        id="email"
+                        placeholder="email"
+                      />
                       <MDBBtn
                         className="me-2 my-1 py-3 mx-1 px-6 py-2 btn-block smBtn"
                         onClick={sendEmail}
@@ -136,12 +112,13 @@ export default function Home() {
                         Suscribirse
                       </MDBBtn>
                     </div>
-                  </MDBCol>
-                </MDBRow>
-                <h6>Suscríbete gratis</h6>
-              </div>
+                  </div>
+                  <h6>Suscríbete gratis</h6>
+                </form>
+              </MDBCol>
             </div>
           </div>
+
           <div className="container-fluid p-0 m-0">
             <div className="row bg-image">
               <div className="col-md-5 p-5 m-3 mt-5 mx-2">
@@ -192,33 +169,25 @@ export default function Home() {
           </div>
         </div>
         <div className="container-fluid p-0 m-0">
-          <div className="row">
-            <div className="col main2 p-0 m-0">
-              <video
-                style={{ width: '100%', height: '100%' }}
-                muted
-                autoPlay
-                loop
-                src="/videos/ojo.mp4"
-                className="main2 p-0 m-0 videoBg2"
-                type="video/mp4"
-              />
-              <div className="content6 p-0 m-0">
-                <div className="row pt-5 mt-5">
-                  <div className="col maintext2 pt-5">
-                    Ayúdanos a ser cada <br />
-                    vez más inteligentes.
-                    <br />
-                    <h6>
-                      <br />
-                      Con tu ayuda queremos que el servicio que proveemos siga{' '}
-                      <br />
-                      mejorando. Ayúdanos, llenando nuestra encuesta.
-                    </h6>
-                    <MDBBtn className="p">Llena la encuesta</MDBBtn>
-                  </div>
-                </div>
-              </div>
+          <div className="maint">
+            <div className="overlayt">
+              <video src={'/videos/eye.mp4'} autoPlay loop muted />
+            </div>
+            <div className="contentt mx-2">
+              <h1>
+                Ayúdanos a ser cada <br />
+                vez más inteligentes.
+              </h1>
+              <p>
+                Con tu ayuda queremos que el servicio que proveemos siga
+                mejorando. Ayúdanos, llenando nuestra encuesta.
+              </p>
+              <MDBBtn
+                className="me-2 my-1 py-3 mx-1 px-2 py-2 smBtn"
+                onClick={sendEmail}
+              >
+                Llena la encuesta
+              </MDBBtn>
             </div>
           </div>
         </div>
