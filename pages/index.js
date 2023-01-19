@@ -27,6 +27,7 @@ import {
 import emailjs from '@emailjs/browser'
 
 import { useRef } from 'react'
+import QueHacemos from '../components/QueHacemos'
 
 // import videoBg from "../src/videos/cut.mp4"
 
@@ -168,6 +169,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <QueHacemos />
         <div className="container-fluid p-0 m-0" id="ayudanos">
           <div className="maint">
             <div className="overlayt">

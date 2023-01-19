@@ -354,6 +354,10 @@ video {
   /* background-color: #000000cc; */
 }
 
+.blueText{
+color: blue;
+}
+
  .border{
   border: #1f1209;
  }
@@ -523,6 +527,9 @@ div.scrollmenu a:hover {
 }
 .maintext2span{
   font-size: 17px;
+}
+.headerQue{
+  text-align: justify;
 }
 
 @media screen and (max-width: 1024px) {
