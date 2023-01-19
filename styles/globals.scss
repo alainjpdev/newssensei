@@ -2,6 +2,7 @@
 
 html, body {
   overflow-x: hidden;
+  font-family: 'neuzeit-grotesk', sans-serif;
 }
 
 .globalImg {
@@ -47,6 +48,19 @@ html, body {
 
 .bg-lighter {
   background-color: $lighter;
+}
+.bgFooter{
+  background-color: #03508F;
+}
+.footer{
+
+    // bottom: 0px;
+    height: 600px;
+    // position: absolute;
+    width: 100%;
+    z-index: 1;
+    color: white;
+  
 }
 
 .bg-black {
@@ -324,6 +338,8 @@ video {
   flex-direction: column;
   margin-top: 100px;
   // justify-content: center;
+  text-align: center;
+  font-weight: bold;
   align-items: center;
   color: white;  
   z-index: 1;
@@ -336,9 +352,12 @@ video {
   display: flex;
   flex-direction: column;
   margin-top: 100px;
-  font-weight: 700;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 1000;
+  font-weight: bold;
+  font-family: 'neuzeit-grotesk', sans-serif;
+  // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   // justify-content: center;
+  text-align: center;
   align-items: center;
   color: white;  
   z-index: 1;

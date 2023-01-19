@@ -79,12 +79,12 @@ const QueHacemos = () => {
               News Sensei es un brief inteligente gratuito, conciso, dinámico y
               completo.
             </h2>
-            <h6 className="mx-3 blueText ">
+            <h5 className="mx-3 blueText ">
               News Sensei te ahorra tiempo, dinero y esfuerzo al enviarte un
               resumen inteligente con la información noticiosa más relevante
               todas las mañanas.
-            </h6>
-            <h6 className="mx-3">
+            </h5>
+            <h5 className="mx-3">
               La mayoría de los CEO´s de grandes corporaciones, funcionarios de
               alto nivel, y altos mandos del gobierno, contratan empresas de
               comunicación que les producen un “Resumen de Medios”. Lo anterior,
@@ -112,7 +112,7 @@ const QueHacemos = () => {
               entender el mundo que los rodea mediante análisis coyuntural, pero
               conciso, de manera rápida y profunda incluyendo “futurología”, que
               permite hacer pronósticos políticos, económicos y tecnológicos.
-            </h6>
+            </h5>
           </div>
         )}
 
